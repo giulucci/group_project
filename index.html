@@ -10,6 +10,11 @@
 
     <!-- Bootstrap for this page -->
     <link href="css/Bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="gridsheet">
+
+    <!-- Javascript for this page -->
+    <link href="javascript/javascript.js" rel="javascript">
+
 
   </head>
 
@@ -25,10 +30,8 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#product">Product</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </ul>
         </div>
       </div>
@@ -39,6 +42,7 @@
       <div class='container'>
         <div class='intro-text'>
           <div class="intro-lead-in">Welcome To Your LBS Course Scheduler!</div>
+          </br></br>
           <div class="intro-heading text-uppercase">How about letting technology </br> help you pick your classes?</div>
         </div>
       </div>
@@ -59,7 +63,7 @@
     </section>
 
     <!-- About -->
-    <section class='about-project'>
+    <section class='about-project' id='about'>
       <div class='container'>
         <div class='about-text'>
           <div class='about-title'>
@@ -82,13 +86,51 @@
             </p>
           </div>
           <div class='about-picture'>
-            <img src="images/logo.jpg" alt="logo" width="200px">
+            <img src="images/logo.jpg" alt="logo" width="100px">
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services -->
+    <!-- Product -->
+    <section class='product' id='product'>
+      <div class='container'>
+        <div class='product-text'>
+          <div class='product-title'>
+            <h1>About the Product</h1>
+          </div>
+          <div class="product-intro">
+            <p>
+              </br>
+              LBS Scheduler works with you to quickly and seamlessly design the best schedule possible.
+            </br> </p>
+          </div>
+          <div class= 'product-steps'>
+            <p>
+              In 3 Simple Steps
+            </p>
+          </div>
+        <div class="box">
+        <div class="row">
+          <div class="column">
+            <h2>Select Criteria</h2>
+            <img src="images/define.png" alt="define" width="100px">
+            <p>Pick your favorite classes and choose your
+            </br> ideal days of the week.</p>
+        </div>
+        <div class="column">
+          <h2>Algorithm Runs</h2>
+          <img src="images/checkmark-480.png" alt="checkmark" width="100px">
+          <p>We build options of ideal classes
+          </br> based on your selected days of the week.</p>
+        </div>
+        <div class="column">
+          <h2>Find Your Ideal Schedule</h2>
+          <img src="images/calendar-480.png" alt="calendar" width="100px">
+          <p>Choose your best schedule
+          </br> and rule your classes!</p>
+        </div>
+    </section>
 
   </body>
 </html>
